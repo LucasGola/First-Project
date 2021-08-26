@@ -1,0 +1,110 @@
+/* NAV-BAR */
+
+#header {
+  width: 100%;
+  background-color: var(--primary);
+  transition: background ease-out 0.2s;
+  border-bottom: 4px solid #464646;
+}
+
+/* .fixed {
+  position: fixed;
+  top: 0;
+  z-index: 500;
+} */
+
+/* #header.active {
+  position: fixed;
+  z-index: 9999;
+} */
+
+#header .navbar-collapse {
+  width: auto;
+  flex-grow: 0;
+}
+
+#header .nav-link {
+  text-transform: uppercase;
+  font-size: 18px;
+  padding-left: 0;
+  padding-right: 0;
+  color: white;
+  border-bottom: solid 2.5px transparent;
+}
+
+#header .nav-link:hover {
+  border-bottom: solid 2.5px var(--hover);
+  color: var(--hover);
+}
+
+.navbar-light .navbar-toggler {
+  background-color: #626262;
+}
+
+/* //NAV-BAR */
+
+/* HOMEPAGE */
+
+.home {
+  background-image: url(../img/img-home.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: white;
+  text-align: center;
+}
+
+#homepage {
+  width: 100%;
+  height: 100%;
+  background-color: var(--background);
+}
+
+#infos {
+  width: 100%;
+  height: 100%;
+  background-color: var(--primary);
+}
+
+.icons img {
+  display: inline-block;
+  max-width: 175px;
+  max-height: 175px;
+  width: auto;
+  height: auto;
+  padding: 15px;
+}
+
+.icons figure {
+  float: right;
+  text-align: center;
+  font-family: "stix";
+  color: white;
+  line-height: 1.5em;
+  font-size: 20px;
+}
+
+.icons figcaption {
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+/* //HOMEPAGE */
+
+/* FOOTER */
+
+#infos p {
+  font-style: italic;
+  font-size: 14px;
+  padding: 0;
+  margin: 0px 0px 8px 0px;
+  text-indent: 3.5em;
+}
+
+#infos a {
+  display: inline-block;
+  text-decoration: none;
+  margin: 0px 50px 0px 50px;
+  min-width: 70px;
+}
+
+/* //FOOTER */

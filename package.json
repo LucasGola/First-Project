@@ -1,0 +1,25 @@
+{
+  "name": "first-project-2.0",
+  "version": "1.0.0",
+  "description": "My Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasGola/First-Project.git"
+  },
+  "keywords": [
+    "Site",
+    "Lucas",
+    "Gola",
+    "Wbebsite"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LucasGola/First-Project/issues"
+  },
+  "homepage": "https://github.com/LucasGola/First-Project#readme"
+}

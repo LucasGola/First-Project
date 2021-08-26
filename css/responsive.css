@@ -1,0 +1,36 @@
+@media (min-width: 320px) and (max-width: 425px) {
+  .home {
+    padding: 5em;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 1023px) {
+  .home {
+    padding: 7.5em;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .home {
+    padding: 9em;
+  }
+}
+
+@media (min-width: 1440px) {
+  .home {
+    padding: 12em;
+  }
+}
+
+@media (min-width: 992px) {
+  #header .nav-link {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+
+@media (max-width: 991.98) {
+  #header .navbar-collapse {
+    width: 100%;
+  }
+}

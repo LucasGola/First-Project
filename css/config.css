@@ -1,0 +1,38 @@
+:root {
+  --primary: #303030;
+  --hover: #00bac6;
+  --background: #b8b8b8f5;
+}
+
+@font-face {
+  font-family: "stix";
+  src: url(../fonts/STIXTwoText-Medium.ttf) format(trutype);
+}
+
+h1 {
+  font-family: "stix";
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: white;
+  text-align: center;
+  margin: 8px 0px 8px 0px !important;
+  font-size: 50px;
+}
+
+p {
+  font-family: "stix";
+  color: white;
+  text-indent: 4em;
+  line-height: 1.5em;
+  font-size: 20px;
+}
+
+a {
+  font-family: "stix";
+  color: white;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
