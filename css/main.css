@@ -1,4 +1,7 @@
 @import url(bootstrap.min.css);
 @import url(config.css);
-@import url(custom.css);
+@import url(homepage.css);
 @import url(responsive.css);
+@import url(navbar.css);
+@import url(footer.css);
+@import url(aboutme.css);

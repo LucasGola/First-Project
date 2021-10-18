@@ -1,0 +1,19 @@
+/* FOOTER */
+
+#infos p {
+    font-style: italic;
+    font-size: 14px;
+    padding: 0;
+    margin: 0px 0px 8px 0px;
+    text-indent: 3.5em;
+  }
+  
+  #infos a {
+    display: inline-block;
+    text-decoration: none;
+    margin: 0px 50px 0px 50px;
+    min-width: 70px;
+  }
+  
+  /* //FOOTER */
+  

@@ -1,0 +1,47 @@
+/* HOMEPAGE */
+
+.home {
+  background-image: url(../img/img-home.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: white;
+  text-align: center;
+}
+
+#homepage {
+  width: 100%;
+  height: 100%;
+  background-color: var(--background);
+}
+
+#infos {
+  width: 100%;
+  height: 100%;
+  background-color: var(--primary);
+}
+
+.icons img {
+  display: inline-block;
+  max-width: 175px;
+  max-height: 175px;
+  width: auto;
+  height: auto;
+  padding: 15px;
+}
+
+.icons figure {
+  float: right;
+  text-align: center;
+  font-family: "stix";
+  color: white;
+  line-height: 1.5em;
+  font-size: 20px;
+}
+
+.icons figcaption {
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+/* //HOMEPAGE */
+

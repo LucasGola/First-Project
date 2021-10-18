@@ -1,0 +1,38 @@
+/* NAV-BAR */
+
+#header {
+    width: 100%;
+    background-color: var(--primary);
+    transition: background ease-out 0.2s;
+    border-bottom: 4px solid #464646;
+  }
+  
+  #header.active {
+    position: fixed;
+    z-index: 9999;
+  }
+  
+  #header .navbar-collapse {
+    width: auto;
+    flex-grow: 0;
+  }
+  
+  #header .nav-link {
+    text-transform: uppercase;
+    font-size: 18px;
+    padding-left: 0;
+    padding-right: 0;
+    color: white;
+    border-bottom: solid 2.5px transparent;
+  }
+  
+  #header .nav-link:hover {
+    border-bottom: solid 2.5px var(--hover);
+    color: var(--hover);
+  }
+  
+  .navbar-light .navbar-toggler {
+    background-color: #626262;
+  }
+  
+  /* //NAV-BAR */
