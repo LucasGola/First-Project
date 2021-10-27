@@ -5,6 +5,37 @@
     padding-top: 67px;
 }
 
+#aboutme h1, h2 {
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+h2 {
+    color: lightgray;
+}
+
+.conteudo {
+    text-align: justify;
+    padding-bottom: 2em;
+}
+
+.img {
+    float: left;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 0.5em;
+    padding-top: 1em;
+}
+
+.img2 {
+    float: right;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 0.5em;
+    padding-top: 1em;
+}
+
 #aboutme img {
     display: inline-block;
     max-width: 225px;
