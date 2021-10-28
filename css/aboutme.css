@@ -22,25 +22,21 @@ h2 {
 
 .img {
     float: left;
-    padding-left: 2em;
-    padding-right: 2em;
-    padding-bottom: 0.5em;
-    padding-top: 1em;
 }
 
 .img2 {
     float: right;
-    padding-left: 2em;
-    padding-right: 2em;
-    padding-bottom: 0.5em;
-    padding-top: 1em;
 }
 
 #aboutme img {
     display: inline-block;
+}
+
+.eu {
+    margin: 2em;
+    margin-bottom: 0;
     max-width: 225px;
     max-height: 225px;
-    width: auto;
-    height: auto;
-    padding: 15px;
+    border: ridge 0.1em black;
+    border-radius: 0.5em;
 }
