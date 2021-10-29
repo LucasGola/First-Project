@@ -37,6 +37,30 @@ h2 {
     margin-bottom: 0;
     max-width: 225px;
     max-height: 225px;
-    border: ridge 0.1em black;
+    border: solid 0.1em black;
     border-radius: 0.5em;
+}
+
+.junina {
+    margin: 2em;
+    margin-bottom: 0;
+    max-height: 270px;
+    border: solid 0.1em black;
+    border-radius: 1em;
+}
+
+.tcc {
+    margin: 2em;
+    margin-bottom: 0;
+    border: solid 0.1em black;
+    border-radius: 1em;
+    max-height: 300px;
+}
+
+.impac {
+    margin: 2em;
+    margin-bottom: 0;
+    border: solid 0.1em black;
+    border-radius: 1em;
+    max-height: 230px;
 }
