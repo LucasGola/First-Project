@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./css/form.css">
+    <script type="text/javascript" src="./js/main.js"></script>
     <title>Formulário</title>
 </head>
 
@@ -43,24 +44,27 @@
                         <p>Custo:</p>
 
                         <!-- PAGO -->
-                        <input type="radio" id="pago" name="valor" value="valor" required>
+                        <input type="radio" id="pago" name="valor" value="Pago" onclick="Habilita('cost')" required>
                         <label for="valor">Pago: </label>
                         <br><br>
                         <div class="inputBox">
-                            <input type="number" name="pago" id="valor" class="inputUser" required>
-                            <label for="valor" class="labelInput">Valor</label>
-                            <style>
-                                input[type=number]::-webkit-inner-spin-button,
-                                input[type=number]::-webkit-outer-spin-button {
-                                    -webkit-appearance: none;
-                                    margin: 0;
-                                }
-                            </style>
+                            <div id="cost">
+                                <input type="number" name="pago" id="custo" class="inputUser" required>
+                                <label for="valor" class="labelInput custo">Valor</label>
+                                <style>
+                                    input[type=number]::-webkit-inner-spin-button,
+                                    input[type=number]::-webkit-outer-spin-button {
+                                        -webkit-appearance: none;
+                                        margin: 0;
+                                    }
+                                </style>
+                            </div>
                         </div>
                         <!-- //PAGO -->
                         <br>
                         <!-- GRATUITO -->
-                        <input type="radio" id="gratuito" name="valor" value="valor" required>
+                        <input type="radio" id="gratuito" name="valor" value="Gratuito" onclick="Esconde('cost')"
+                            required>
                         <label for="valor">Gratuito</label>
                         <!-- //GRATUITO -->
                     </div>
