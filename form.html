@@ -16,25 +16,25 @@
             <form action="">
                 <fieldset>
                     <legend><b>Me sugira um curso</b></legend>
-                    <br>
+                    <br><br>
                     <!-- NOME -->
                     <div class="inputBox">
                         <input type="text" name="Nome do curso" id="course_nome" class="inputUser" required>
-                        <label for="Nome do curso" class="labelInput">Nome do Curso</label>
+                        <label for="course_nome" class="labelInput">Nome do Curso</label>
                     </div>
                     <!-- //NOME -->
-                    <br>
+                    <br><br>
                     <!-- URL -->
                     <div class="inputBox">
-                        <input type="url" name="URL do curso" id="fomr_url" class="inputUser" required>
-                        <label for="URL do curso" class="labelInput">URL do curso</label>
+                        <input type="text" name="URL do curso" id="fomr_url" class="inputUser" required>
+                        <label for="fomr_url" class="labelInput">URL do curso</label>
                     </div>
                     <!-- //URL -->
-                    <br>
+                    <br><br>
                     <!-- TEMA -->
                     <div class="inputBox">
                         <input type="text" name="Assunto" id="fomr_tema" class="inputUser" required>
-                        <label for="Tema" class="labelInput">Tema</label>
+                        <label for="fomr_tema" class="labelInput">Tema</label>
                     </div>
                     <!-- //TEMA -->
 
@@ -43,38 +43,41 @@
                         <p>Custo:</p>
 
                         <!-- PAGO -->
-                        <input type="radio" id="pago" name="pago" value="pago" required>
-                        <label for="pago" class="labelInput">Pago</label>
-                        <input type="number" name="pago" id="valor" required>
-                        <label for="valor" class="labelInput">Valor</label>
-                        <style>
-                            input[type=number]::-webkit-inner-spin-button,
-                            input[type=number]::-webkit-outer-spin-button {
-                                -webkit-appearance: none;
-                                margin: 0;
-                            }
-                        </style>
+                        <input type="radio" id="pago" name="valor" value="valor" required>
+                        <label for="valor">Pago: </label>
+                        <br><br>
+                        <div class="inputBox">
+                            <input type="number" name="pago" id="valor" class="inputUser" required>
+                            <label for="valor" class="labelInput">Valor</label>
+                            <style>
+                                input[type=number]::-webkit-inner-spin-button,
+                                input[type=number]::-webkit-outer-spin-button {
+                                    -webkit-appearance: none;
+                                    margin: 0;
+                                }
+                            </style>
+                        </div>
                         <!-- //PAGO -->
                         <br>
                         <!-- GRATUITO -->
-                        <input type="radio" id="gratuito" name="gratuito" value="gratuito" required>
-                        <label for="gratuito" class="labelInput">Gratuito</label>
+                        <input type="radio" id="gratuito" name="valor" value="valor" required>
+                        <label for="valor">Gratuito</label>
                         <!-- //GRATUITO -->
                     </div>
                     <!-- //CUSTO -->
-                    <br>
+                    <br><br>
                     <!-- NIVEL -->
                     <div class="inputBox">
-                        <label for="nivel" class="labelInput">Nível: <br>Básico
+                        <label for="nivel">Nível: <br>Básico
                             <input type="range" min="1" max="5" id="nivel" name="nivel" value="nivel" onchange="fetch()"
                                 required>
                             Avançado
                         </label>
                         <!-- //NIVEL -->
                     </div>
+                    <br>
 
-                    <div class="inputBox">
-                    </div>
+                    <input type="submit" name="submit" id="submit">
 
                 </fieldset>
             </form>
