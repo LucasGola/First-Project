@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/form.css">
+    <title>Formulário</title>
+</head>
+
+<body>
+
+    <div id="courses">
+        <div class="box">
+            <form action="">
+                <fieldset>
+                    <legend><b>Me sugira um curso</b></legend>
+                    <br>
+                    <!-- NOME -->
+                    <div class="inputBox">
+                        <input type="text" name="Nome do curso" id="course_nome" class="inputUser" required>
+                        <label for="Nome do curso" class="labelInput">Nome do Curso</label>
+                    </div>
+                    <!-- //NOME -->
+                    <br>
+                    <!-- URL -->
+                    <div class="inputBox">
+                        <input type="url" name="URL do curso" id="fomr_url" class="inputUser" required>
+                        <label for="URL do curso" class="labelInput">URL do curso</label>
+                    </div>
+                    <!-- //URL -->
+                    <br>
+                    <!-- TEMA -->
+                    <div class="inputBox">
+                        <input type="text" name="Assunto" id="fomr_tema" class="inputUser" required>
+                        <label for="Tema" class="labelInput">Tema</label>
+                    </div>
+                    <!-- //TEMA -->
+
+                    <!-- CUSTO -->
+                    <div class="inputBox">
+                        <p>Custo:</p>
+
+                        <!-- PAGO -->
+                        <input type="radio" id="pago" name="pago" value="pago" required>
+                        <label for="pago" class="labelInput">Pago</label>
+                        <input type="number" name="pago" id="valor" required>
+                        <label for="valor" class="labelInput">Valor</label>
+                        <style>
+                            input[type=number]::-webkit-inner-spin-button,
+                            input[type=number]::-webkit-outer-spin-button {
+                                -webkit-appearance: none;
+                                margin: 0;
+                            }
+                        </style>
+                        <!-- //PAGO -->
+                        <br>
+                        <!-- GRATUITO -->
+                        <input type="radio" id="gratuito" name="gratuito" value="gratuito" required>
+                        <label for="gratuito" class="labelInput">Gratuito</label>
+                        <!-- //GRATUITO -->
+                    </div>
+                    <!-- //CUSTO -->
+                    <br>
+                    <!-- NIVEL -->
+                    <div class="inputBox">
+                        <label for="nivel" class="labelInput">Nível: <br>Básico
+                            <input type="range" min="1" max="5" id="nivel" name="nivel" value="nivel" onchange="fetch()"
+                                required>
+                            Avançado
+                        </label>
+                        <!-- //NIVEL -->
+                    </div>
+
+                    <div class="inputBox">
+                    </div>
+
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

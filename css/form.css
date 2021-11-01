@@ -1,0 +1,57 @@
+body {
+    background-image: linear-gradient(to right, rgb(38, 129, 182), rgb(0, 58, 85));
+}
+
+.box {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #093957;
+    padding: 15px;
+    border-radius: 15px;
+    width: 25%;
+}
+
+fieldset {
+    border: 3px solid dodgerblue;
+    
+}
+
+legend {
+    border: 1px solid dodgerblue;
+    padding: 10px;
+    text-align: center;
+    background-color: dodgerblue;
+    border-radius: 8px;
+}
+
+.inputBox {
+    position: relative;
+}
+
+.inputUser {
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    font-size: 20px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+
+.labelInput {
+    position: auto;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+#valor {
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+}
